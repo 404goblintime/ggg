@@ -12,14 +12,15 @@ function draw(){
     image(video, 100, 50, 300,300);
     tint(tint_color);
     fill(200,2,175);
-    circle(100,50,50);
-    circle(400,50,50);
-    circle(100,350,50);
-    circle(400,350,50);
     rect(100,50,10,300);
     rect(400,50,10,300);
     rect(100,50,300,10);
     rect(100,350,310,10);
+    fill(255,0,255);
+    circle(100,50,50);
+    circle(400,50,50);
+    circle(100,350,50);
+    circle(400,350,50);
 }
 function take_snapshot(){
     save('tintselfie.png');
